@@ -4,56 +4,79 @@ width:100%;
 margin: 0;
 padding: 0;
 font-family: monospace;
-background-image:url(pic/wood.webp);
-color:white;
+color: white;
+
+}
+
+
 
 body{
 width: 100%;
+background-color:black;
+}
 
-}
-}
 footer{
 text-align: center;
 width:100%;
 
-
+background-image: url(pic/wood.webp);
 }
 .logo{
 position: relative;
 float: left;
-width: 10%;
+width: 75px;
 margin:auto;
 margin-left: 20px;
+border:solid black 1px;
 margin-right: 20px;
-border: solid white 2px ;
+
 border-radius: 100%;
 }
 
+
+
 .heading{
 width:100%;
-color:yellow;
+color:white;
+
 box-shadow: 20px;
 border-radius: 5px;
 text-align: center;
 
 }
+
 .headcell{
+margin: auto;
 margin-top:3px;
-margin-bottom:10%;
+padding-top:10px;
+padding-bottom:50px;
+
+background-color:darkmagenta;
+}
+.main{
+
+background-image: url(pic/wood.webp);
+
 }
 
-
 .works{
-width:90%;
+width:70%;
 margin: auto;
-display:flex;
+display:block;
 border:solid white ;
 border-radius: 2px;
 }
 .name{
 text-align: center;
-color:yellow;
+color:gold;
 }
-
+.main-heading{
+margin: auto;
+text-align: center;
+background-color:rgb(95, 3, 95);
+width:95%;
+border-radius:0 10px 0 10px;
+border:solid silver 2px ;
+}
 
 
