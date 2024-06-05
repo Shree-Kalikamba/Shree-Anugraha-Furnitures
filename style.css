@@ -18,13 +18,13 @@ background-color:black;
 footer{
 text-align: center;
 width:100%;
-
 background-color:rgb(95, 3, 95);
 }
+
 .logo{
 position: relative;
 float: left;
-width: 75px;
+width: 80px;
 margin:auto;
 margin-left: 20px;
 border:solid black 1px;
@@ -33,7 +33,11 @@ margin-right: 20px;
 border-radius: 100%;
 }
 
+.intrd{
+background-image: url(pic/wood.webp);
 
+
+}
 
 .heading{
 width:100%;
@@ -50,25 +54,28 @@ margin: auto;
 margin-top:3px;
 padding-top:10px;
 padding-bottom:50px;
-
 background-color:darkmagenta;
 }
 .main{
-
-background-color:rgb(95, 3, 95);
-
+    background-image: url(pic/wood.webp);
+   
 }
 
 .works{
-width:70%;
+width:80%;
 margin: auto;
 display:block;
 border:solid white ;
 border-radius: 2px;
 }
 .name{
-text-align: center;
-color:gold;
+width: 80%;
+margin: auto;
+text-align:center;
+border: solid lawngreen 2px;
+color:lawngreen;
+background-color:rgb(59, 58, 58);
+
 }
 .main-heading{
 margin: auto;
@@ -79,4 +86,13 @@ border-radius:0 10px 0 10px;
 border:solid silver 2px ;
 }
 
+.Wf{
+    margin: auto;
+    text-align: center;
+    background-color:black;
+    width:85%; 
+    border-radius:0 10px 0 10px;
+    border:solid slategrey 3px ;
+
+}
 
