@@ -1,0 +1,82 @@
+
+@media only screen and (max-width: 600px)
+{
+
+
+.MainHead{
+   padding-top:2%;
+   padding-bottom:2%;
+   background-color:wheat;
+   border:solid whitesmoke 5px;
+}
+
+
+.vishwakarma{
+width:12%;
+display:inline;
+margin-top: 2%;
+margin-left: 2%;
+}
+.kalikamba{
+
+   width:10%;
+   display:inline;
+   float:right;
+   margin-top: 2%;
+  margin-right: 2%;
+
+}
+.detail{
+   padding-top:50px;
+   font-family: monospace;
+   padding-left:20px;
+}
+div.scroll {
+   margin:auto;
+   background-color: wheat;
+   width:90%;
+   overflow-x: auto;
+   overflow-y: hidden;
+   white-space: nowrap;
+   border-radius:5px;
+   border:solid wheat 10px;
+}
+.works{
+
+height:200px;
+border-radius:5px;
+border:solid white 2px;
+}
+.MainNav{
+height:20px;
+margin: auto;
+border: solid wheat 5px;
+}
+.SearchNav{
+float: right;
+padding-right:20px;
+display: flex;
+color: green;
+
+}
+.SearchTF{
+width: 150px;
+margin-left:10px;
+display:inline;
+
+}
+.home{
+   color: green;
+text-decoration: none;
+margin-left: 10px;
+}
+  .works_open{
+width: 90%;
+display: grid;
+align-items: center;
+margin: auto;
+border:solid wheat 5px;
+     
+}
+}
+

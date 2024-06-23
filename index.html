@@ -6,167 +6,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet " href="style.css">
+    <link rel="stylesheet " href="style.css"> 
+    <link rel="stylesheet " href="style1.css">
+    <link rel="stylesheet " href="style2.css">
     <title>Shree Anugraha Furnitures </title> 
 
     
 </head>
-<body>
-    
-    
-    
-    
-    <div class="headcell" >
-        <div class="main-heading">
-                 <br>
-            
-                
-                 <h3> SHREE ANUGRAHA FURNITURES </h3>
-                 
-                 <br>
-            
-            </div>
-            
-            
-            <br>
-            <hr>
-            <div class="intrd">
-                <br>
-                <br>
-                <p style="text-align: center; color: yellow;">SHREE ANUGRAHA FURNITURES</p>
-                
-                <br>
-                <img class="works" src="pic/vishwakarma.png">
-                <br>
-                <p style="text-align: center;">|| Shree Vishwakarmane namaha ||</p>
-                <br>
-                <br>
-                <marquee >---::::::x::::::--- SHREE ANUGRAHA FURNITURES ---::::::x::::::---</marquee>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-            <hr>
-            <br>
-            <h3 style="text-align: center; color: yellow;"> WELCOME </h3>
-            <p style="text-align: center; color: yellow;">*******************************</p>
-        
-            <br>
-        
-                
-                
-                <img class="logo" src="pic/logo.jpg">
-                
-                
-                <h3 class="owner"> Radhakrishna Achar  </h3>
-                <br>
-                <p class="owner">KUMBARAMAKKI, ULLUR-74, SANTHAKODU</p>
-                <p><b>contact :</b> 9481518240</p>
-                
-                <br>
-                
-        </div>
 
-        <div class="main">
-            
-            
-            <hr>
-            
-            
-            <br>
-            <br>
-            <div class="Wf">
-                <br>
-          
-            <h2>Wooden furnitures</h2>
-            <img style="width:20%;" src="pic/load.webp">
-            <p >made by <b>Radhakrishna Achar</b></p>
-             
-            <br>
-            </div>
-           
-           <br>
-           <br>
-            <h3 class="name" >SOFA</h3>
-           
-            <br>
-            <br>
-            <img class="works" src="works/s1.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/s2.jpg">
-            <br>
-            <br>
-            
-            <hr>
-            
-            <br>
-            <h3 class="name">TEA PAI / TABLE</h3>
-       
-            <br>
-            <br>
-            <img class="works" src="works/tp1.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/tp2.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/tp3.jpg">
-            <br>
-            <br>
-            <hr>
-            
-            <br>
-            <h3 class="name">DOOR / WINDOWS</h3>
-         
-            <br>
-            <br>
-            <img class="works" src="works/d1.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/d2.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/d3.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/d4.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/d5.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/w1.jpg">
-            <br>
-            <br>
-            
-            <hr>
-            <br>
-            <h3 class="name" >CHAIRS</h3>
-          
-            <br>
-            <br>
-            <img class="works" src="works/c1.jpg">
-            <br>
-            <br>
-            <img class="works" src="works/c2.jpg">
-            <br>
-            <br>
-        </div>
-        
-</body>
 
+<header>
+   
+    <div class="MainHead">
+        <h2 class="MainHeadTitle">Shree Anugraha Furnitures</h2>
+      <img class="vishwakarma" src="pic/VishwakarmaLogo.png"> 
+      <img class="kalikamba" src="pic/KalikambaLogo.png"> 
+      
+      
+    </div>
+   
+</header>
+<body> 
+
+<div class="MainNav">
+    <a class="home" href="index.html"> home</a>
+
+<div class="SearchNav">
+<p>Search</p>
+<input type="text" class="SearchTF" id="SearchTF" placeholder="eg:Phone number">
+
+<button id="SearchB" class="SearchB" type="submit" onclick="Search()">
+    <img style="height: 10px;" src="pic/Search.png">
+</button>
+</div>
+</div>
+<br>
+<div class="detail" >
+    <h3>Info:</h3>
+    <h3>Radhakrishna Achar</h3>
+    <h4>Ullur-74 ,Santhakodu</h4>
+     <p>Phone NO: 9481518240 </p> 
+     <br>
+</div>
+<br>  
+<br>
+<h3 style="text-align: center;">Wood Works</h3>
+<br>
+
+<div id="sofa" class="scroll" >
+    <h4>Sofa</h4>
+<img class="works" src="works/s1.jpg">
+<img class="works" src="works/s2.jpg">
+<a href="sofa.html" >
+    <img class="works" src="pic/more.jpg">
+</a>
+
+</div>
+<br>
+<div id="teapoy" class="scroll">
+    <h4>Teapoy</h4>
+<img class="works" src="works/tp2.jpg">
+<img class="works" src="works/tp1.jpg">
+<img class="works" src="works/tp3.jpg">
+<a href="teapoy.html" >
+    <img class="works" src="pic/more.jpg">
+</a>
+
+</div>
+<br>
+<div id="doors" class="scroll">
+    <h4>Doors</h4>
+<img class="works" src="works/d1.jpg">
+<img class="works" src="works/d2.jpg">
+<img class="works" src="works/d3.jpg">
+<img class="works" src="works/d4.jpg">
+<img class="works" src="works/d5.jpg">
+<img class="works" src="works/d6.jpg">
+<img class="works" src="works/d7.jpg">
+<a href="doors.html" >
+    <img class="works" src="pic/more.jpg">
+</a>
+
+</div>
+
+<br>
+
+
+<div id="others" class="scroll">
+    <h4>Others</h4>
+<img class="works" src="works/w1.jpg">
+<img class="works" src="works/c2.jpg">
+<img class="works" src="works/c1.jpg">
+<img class="works" src="works/stnd1.jpg">
+<img class="works" src="works/stnd2.jpg">
+<img class="works" src="works/tvstnd1.jpg">
+<a href="others.html" >   
+    <img class="works" src="pic/more.jpg">
+</a>
+      
+      
+</div>
+</body>    
 <footer>
-<br>
-<h3>Thankyou for visit</h3>
+<script src="Search.js"></script>
 
-<br>
-<p>Website desiner: Shashank Achar </p>
-<br>
 </footer>
-
 
 </html>

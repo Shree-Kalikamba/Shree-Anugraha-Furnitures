@@ -1,98 +1,29 @@
-
 *{
-width:100%;
-margin: 0;
-padding: 0;
-font-family: monospace;
-color: white;
-
+    margin:0; 
+    padding:0;
+    max-width:100%;
+    
+ }
+ .MainHeadTitle{
+   
+    text-align: center;
+    font-family: monospace;
 }
-
-
 
 body{
-width: 100%;
-background-color:black;
+    background-color: whitesmoke;
+    
 }
-
 footer{
-text-align: center;
-width:100%;
-background-color:rgb(95, 3, 95);
+    height: 500px;
+  
 }
-
-.logo{
-position: relative;
-float: left;
-width: 80px;
-margin:auto;
-margin-left: 20px;
-border:solid black 1px;
-margin-right: 20px;
-
-border-radius: 100%;
-}
-
-.intrd{
-background-image: url(pic/wood.webp);
-
+.open_works 
+{  text-align: center;
+   display: block;
+   margin: auto;
+   width: 90%;
+   border:solid wheat 10px;
+ 
 
 }
-
-.heading{
-width:100%;
-color:white;
-
-box-shadow: 20px;
-border-radius: 5px;
-text-align: center;
-
-}
-
-.headcell{
-margin: auto;
-margin-top:3px;
-padding-top:10px;
-padding-bottom:50px;
-background-color:darkmagenta;
-}
-.main{
-    background-image: url(pic/wood.webp);
-   
-}
-
-.works{
-width:80%;
-margin: auto;
-display:block;
-border:solid white ;
-border-radius: 2px;
-}
-.name{
-width: 80%;
-margin: auto;
-text-align:center;
-border: solid lawngreen 2px;
-color:lawngreen;
-background-color:rgb(59, 58, 58);
-
-}
-.main-heading{
-margin: auto;
-text-align: center;
-background-color:rgb(95, 3, 95);
-width:95%;
-border-radius:0 10px 0 10px;
-border:solid silver 2px ;
-}
-
-.Wf{
-    margin: auto;
-    text-align: center;
-    background-color:black;
-    width:85%; 
-    border-radius:0 10px 0 10px;
-    border:solid slategrey 3px ;
-
-}
-
