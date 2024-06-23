@@ -33,7 +33,7 @@ margin-left: 2%;
 }
 div.scroll {
    margin:auto;
-   background-color: wheat;
+   background-color: white;
    width:90%;
    overflow-x: auto;
    overflow-y: hidden;
