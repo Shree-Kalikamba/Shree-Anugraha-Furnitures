@@ -1,4 +1,2 @@
-   || ಶ್ರೀ ವಿಶ್ವಕರ್ಮಣೇ ನಮ‌‍: ||   
-      ಶ್ರೀ ಅನುಗ್ರಹ ಫರ್ನಿಚರ್ಸ್ 
-      
-   Shree Anugraha Furnitures
+<p style="text-align: center;">|| ಶ್ರೀ ವಿಶ್ವಕರ್ಮಣೇ ನಮ‌‍: ||</p>
+<h2 style="text-align: center;"> ಶ್ರೀ ಅನುಗ್ರಹ ಫರ್ನಿಚರ್ಸ್ </h2>
