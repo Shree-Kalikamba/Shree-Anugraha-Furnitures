@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom right, red, yellow);
     
 }
 footer{
