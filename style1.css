@@ -4,7 +4,7 @@
 
 
 .MainHead{
-   font-size:8px;
+   font-size:10px;
    padding-top:2%;
    padding-bottom:2%;
    background-color:wheat;
@@ -13,14 +13,14 @@
 
 
 .vishwakarma{
-width:17%;
+width:15%;
 display:inline;
 margin-top: 2%;
 margin-left: 2%;
 }
 .kalikamba{
 
-   width:15%;
+   width:13%;
    display:inline;
    float:right;
    margin-top: 2%;
