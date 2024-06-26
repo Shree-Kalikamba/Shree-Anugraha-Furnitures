@@ -39,7 +39,6 @@ div.scroll {
    overflow-x: auto;
    overflow-y: hidden;
    white-space: nowrap;
-   border-radius:5px;
    border:solid wheat 10px;
 }
 .works{
