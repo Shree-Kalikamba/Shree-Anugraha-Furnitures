@@ -25,6 +25,7 @@ footer{
    margin: auto;
    width: 98%;
    border:solid wheat 2px;
+  border-radius: 5px;
  
 
 }
@@ -45,7 +46,11 @@ padding:0 10px 0 10px;
 background-color:lightgreen;
 } 
 
-
+.moreH{
+ text-align: center;
+ border: solid wheat 10px; 
+ background-color: wheat;
+}
 
 
 
