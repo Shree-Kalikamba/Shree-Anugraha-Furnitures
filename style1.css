@@ -50,7 +50,7 @@ border:solid white 2px;
 .MainNav{
 height:20px;
 margin: auto;
-border: solid wheat 5px;
+background-color: white;
 }
 .SearchNav{
 float: right;
@@ -70,7 +70,7 @@ display:inline;
 text-decoration: none;
 margin-left: 10px;
 }
-  .works_open{
+.works_open{
 width: 90%;
 display: grid;
 align-items: center;
