@@ -28,3 +28,22 @@ footer{
  
 
 }
+
+input[type="text"]{
+ border-radius:2px;
+ margin:0 0 0 10px;
+ height: 15px;
+ border:solid white 2px;
+ font-size: 12px;
+background-color: white;
+}
+button[type="submit"]
+{
+border-radius:2px;
+border: none;
+padding:0 10px 0 10px;
+background-color:lightgreen;
+} 
+
+
+
