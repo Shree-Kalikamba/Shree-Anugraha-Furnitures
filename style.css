@@ -38,7 +38,7 @@ input[type="text"]{
 background-color: whitesmoke;
 }
 button[type="submit"]
-{
+{ float: right;
     margin-top:1px;
 border-radius:2px;
 border:solid black 1px;
