@@ -15,11 +15,16 @@
 </head>
 
 <body> 
-<br>
-<header>
+    <div class="navigation">
+        <img src="pic/logo.png" width="100px" style="margin-left: 20px;">
+    </div>
     
+<header>
+  
+ 
+
     <div class="MainHead">
-        
+        <br>
        
         <h6 style="text-align: center;">|| ಶ್ರೀ ವಿಶ್ವಕರ್ಮಣೇ ನಮ‌‍: ||</h6>
         <br>
@@ -31,22 +36,23 @@
       
       
     </div>
-   
+    <div class="MainNav">
+        <a class="home" href="index.html"> home</a>
+    
+    <div class="SearchNav">
+    
+    <input type="text" class="SearchTF" id="SearchTF" placeholder="Search">
+
+    
+    <button id="SearchB" class="SearchB" type="submit" onclick="Search()">
+        <img style="height:10px;" src="pic/Search.png">
+    </button>
+    </div>
+    </div>
+    
 </header>
 <main>
     
-<div class="MainNav">
-    <a class="home" href="index.html"> home</a>
-
-<div class="SearchNav">
-
-<input type="text" class="SearchTF" id="SearchTF" placeholder="Search">
-
-<button id="SearchB" class="SearchB" type="submit" onclick="Search()">
-    <img style="height:10px;" src="pic/Search.png">
-</button>
-</div>
-</div>
 
 <div class="detail" >
     <h3>Info:</h3>
@@ -110,6 +116,7 @@
 
 <br>
 <br>
+
 <h4>Other :</h4>
 <br>
       
@@ -136,7 +143,7 @@
 </main> 
    
 <footer>
-
+    
 <script src="Search.js"></script>
 
 </footer>
