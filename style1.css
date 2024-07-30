@@ -7,7 +7,7 @@
 
    padding-top:2%;
    padding-bottom:2%;
-   background-color:#FFB22C;
+   background-color:#FFDE4D;
   border:solid #007F5F 1px;
 }
 
@@ -34,7 +34,7 @@ margin-left: 2%;
 }
 div.scroll {
    margin:auto;
-   background-color:#FF4C4C;
+   background-color:#FFB22C;
    width:94%;
    overflow-x: auto;
    overflow-y: hidden;
@@ -51,7 +51,7 @@ border:solid white 2px;
 .MainNav{
 height:20px;
 margin: auto;
-background-color:#FF4C4C;
+background-color:#FFB22C;
 border: solid black 1px;
 }
 .SearchNav{
