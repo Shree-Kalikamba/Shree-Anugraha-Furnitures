@@ -35,7 +35,7 @@ margin-left: 2%;
 div.scroll {
    margin:auto;
    background-color:#ffc96b;
-   width:95%;
+   width:94%;
    overflow-x: auto;
    overflow-y: hidden;
    white-space: nowrap;
