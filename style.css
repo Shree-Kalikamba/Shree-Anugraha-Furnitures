@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color:rgb(255, 210, 97);
+    background-color:#e81722;
     
 }
 footer{
@@ -20,12 +20,12 @@ footer{
 }
 .open_works 
 { 
-   display: block;
-   margin:10px 0 100px 0;
-   width: 98%;
-   border:solid black 1px;
+  display: block;
+   margin-bottom:5px ;
+width:98%;
+   border:solid #2B9348 2px;
   border-radius: 5px;
-
+ 
 
 }
 

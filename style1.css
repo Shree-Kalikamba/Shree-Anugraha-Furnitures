@@ -8,7 +8,7 @@
    padding-top:2%;
    padding-bottom:2%;
    background-color:gold;
-  border:solid black 1px;
+  border:solid #007F5F 1px;
 }
 
 
@@ -34,17 +34,17 @@ margin-left: 2%;
 }
 div.scroll {
    margin:auto;
-   background-color: gold;
+   background-color:gold;
    width:94%;
    overflow-x: auto;
    overflow-y: hidden;
    white-space: nowrap;
    padding: 10px;
-   border:solid black 1px;
+   border:solid #2B9348 1px;
 }
 .works{
 
-height:100px;
+height:200px;
 border-radius:5px;
 border:solid white 2px;
 }
