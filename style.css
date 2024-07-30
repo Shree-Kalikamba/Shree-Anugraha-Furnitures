@@ -4,6 +4,9 @@
     max-width:100%;
     
  }
+ main{
+    width: 98%;
+ }
  .MainHeadTitle{
    
     text-align: center;
