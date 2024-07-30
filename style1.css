@@ -7,7 +7,7 @@
 
    padding-top:2%;
    padding-bottom:2%;
-   background-color:#e3a93b;
+   background-color:#FFB22C;
   border:solid #007F5F 1px;
 }
 
@@ -34,13 +34,13 @@ margin-left: 2%;
 }
 div.scroll {
    margin:auto;
-   background-color:#2596be;
+   background-color:#FF4C4C;
    width:94%;
    overflow-x: auto;
    overflow-y: hidden;
    white-space: nowrap;
    padding: 10px;
-   border:solid #2B9348 1px;
+   border:solid black 1px;
 }
 .works{
 
@@ -51,7 +51,7 @@ border:solid white 2px;
 .MainNav{
 height:20px;
 margin: auto;
-background-color:goldenrod;
+background-color:#FF4C4C;
 border: solid black 1px;
 }
 .SearchNav{
@@ -75,7 +75,7 @@ width: 90%;
 display: grid;
 align-items: center;
 margin: auto;
-border:solid wheat 5px;
+border:solid #F3FEB8 5px;
      
 }
 }
