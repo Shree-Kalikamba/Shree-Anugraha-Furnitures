@@ -2,26 +2,11 @@
 {
    .MainHead{
       
-      background-color:#FFDE4D;
+      background-color:#008fa9;
       padding-top:2%;
       padding-bottom:2%;
-      border:solid black 1px;
-   }
-   .vishwakarma{
-   width:12%;
-   display:inline;
-   margin-top: 2%;
-   margin-left: 2%;
-   }
-   .kalikamba{
+   } 
    
-      width:10%;
-      display:inline;
-      float:right;
-      margin-top: 2%;
-     margin-right: 2%;
-   
-   }
 
   .detail{
 
@@ -48,15 +33,15 @@
       overflow-y: hidden;
       white-space:nowrap;
       padding: 10px;
-      border:solid #2B9348 1px;
      
+   
      
    }
    .MainNav{
    height:20px;
     margin: auto;
-    border: solid black 1px;
-    background-color: #ffc96b;
+
+    background-color: #008fa9;
    }
    .SearchNav{
       float: right;
@@ -71,7 +56,7 @@
       
    }
    .home{
-    color: black;
+    color: #f2b354;
     text-decoration: none;
     margin-left:20px;
     

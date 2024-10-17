@@ -18,7 +18,7 @@ body{
     background-color:#F3FEB8;
     
 }
-.navigation{
+.Name{
    width: 100%;
    position:fixed; 
    background-color: white;
@@ -52,7 +52,7 @@ button[type="submit"]
 border-radius:2px;
 border:solid black 1px;
 padding:0 10px 0 10px;
-background-color:goldenrod;
+background-color:rgb(119, 181, 251);
 } 
 
 
