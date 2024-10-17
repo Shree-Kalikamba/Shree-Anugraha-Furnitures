@@ -26,7 +26,8 @@
    div.scroll {
      
       margin:auto; 
-      background-color: #ffc96b;
+      background-color:#bbdeee;
+     
       width:90%;
       border-radius:5px;
       overflow-x: auto;
@@ -45,7 +46,7 @@
    }
    .SearchNav{
       float: right;
-      padding-right:20px;
+      padding-right:100px;
       display:flex;
       
       }
@@ -54,12 +55,6 @@
       width: 150px;
       
       
-   }
-   .home{
-    color: #f2b354;
-    text-decoration: none;
-    margin-left:20px;
-    
    }
 
    .works_open{

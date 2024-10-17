@@ -17,7 +17,7 @@
 }
 div.scroll {
    margin:auto;
-   background-color:#ffc96b;
+   background-color:#bbdeee;
    width:92%;
    overflow-x: auto;
    overflow-y: hidden;
@@ -40,18 +40,13 @@ background-color:#008fa9;
 .SearchNav{
 float: right;
 display:flex;
+padding-right:20px;
 
 }
 .SearchTF{
 width: 150px;
 float: right;
 display:inline;
-
-}
-.home{
-color: #f2b354;
-text-decoration: none;
-margin-left: 10px;
 
 }
 .works_open{
