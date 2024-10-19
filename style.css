@@ -51,6 +51,7 @@ width:98%;
 
 }
 input[type="text"]{
+
  border-radius:2px;
  margin:1px 0 0 10px;
  height: 15px;
@@ -66,7 +67,6 @@ border:solid black 1px;
 padding:0 10px 0 10px;
 background-color:rgb(119, 181, 251);
 } 
-
 
 
 
