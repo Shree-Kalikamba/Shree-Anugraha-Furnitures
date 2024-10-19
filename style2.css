@@ -26,12 +26,8 @@
    transition: transform 0.3s ease;
    }
 .works.active
-{
-   border:solid white 3px;
-   position:relative;
-float: right;
-  width: auto;
- height:600px;/* Scale up the active image */
+{ 
+   transform: scale(1.1);
     z-index:1;/* Bring the active image to the front */
 }
    div.scroll {
