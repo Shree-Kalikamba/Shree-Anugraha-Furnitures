@@ -19,10 +19,21 @@
   .works{
    
    height:200px;
-   margin:auto;
+   margin:5px;
+ 
    border-radius:5px;
    border:solid white 2px;
+   transition: transform 0.3s ease;
    }
+.works.active
+{
+   border:solid white 3px;
+   position:relative;
+float: right;
+  width: auto;
+ height:600px;/* Scale up the active image */
+    z-index:1;/* Bring the active image to the front */
+}
    div.scroll {
      
       margin:auto; 

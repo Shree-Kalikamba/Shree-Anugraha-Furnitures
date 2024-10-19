@@ -26,10 +26,22 @@ div.scroll {
    
 }
 .works{
-
+max-width: 250px;
 height:200px;
+margin: 5px;
 border-radius:5px;
 border:solid white 2px;
+transition: transform 0.3s ease; /* Smooth transition */
+}
+.works.active
+{ position:absolute;
+   border:solid white 3px;
+ margin:2% ;
+ right: 0px;
+  height: auto;
+  min-height: 200px;
+ max-width:95%;/* Scale up the active image */
+    z-index:1;/* Bring the active image to the front */
 }
 .MainNav{
 height:20px;
