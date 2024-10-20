@@ -34,8 +34,8 @@ transition: transform 0.3s ease; /* Smooth transition */
 }
 .works.active
 {
-   
-   transform: scale(1.05);
+   border:solid blue 2px;
+   transform: scale(1.1);
     z-index:1;/* Bring the active image to the front */
 }
 .MainNav{
