@@ -34,7 +34,7 @@ transition: transform 0.3s ease; /* Smooth transition */
 }
 .works.active
 {
-   border:solid blue 2px;
+   border:solid #008fa9 2px;
    transform: scale(1.1);
     z-index:1;/* Bring the active image to the front */
 }
