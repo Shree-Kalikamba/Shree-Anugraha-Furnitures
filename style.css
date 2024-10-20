@@ -74,6 +74,7 @@ background-color:rgb(119, 181, 251);
 }
 .home:focus ,.home: active {
     outline: none; 
+    background-color: transparent;
 }
 
 
