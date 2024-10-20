@@ -68,11 +68,31 @@ padding:0 10px 0 10px;
 background-color:rgb(119, 181, 251);
 } 
 
-a, a:hover,a:visited, a:focus, a:active {
-  background-color: transparent; /* Removes background color for all states */
+*{
+
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+input,
+textarea,
+button,
+select,
+a{
+
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+text-decoration :none;
 }
 
 
+
+a:focus,
+a:visited,
+a:active{
+
+outline: none;
+
+}
 
 
 
