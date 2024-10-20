@@ -72,7 +72,7 @@ background-color:rgb(119, 181, 251);
     outline: none; /* Removes the outline */
     background-color: transparent; /* Ensures no background color */
 }
-.home:focus {
+.home:focus ,.home: active {
     outline: none; 
 }
 
