@@ -23,8 +23,7 @@ let doubleClicked = false;
 link.addEventListener('dblclick', function(event) {
     event.preventDefault(); // Prevent the default action of the link
     doubleClicked = true; // Set the flag to true
-    alert('Link was double-clicked! Click again to visit the link.');
-});
+    });
 
 // Add a click event listener to check for double click status
 link.addEventListener('click', function(event) {
