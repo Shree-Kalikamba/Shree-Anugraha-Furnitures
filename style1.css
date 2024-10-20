@@ -34,9 +34,8 @@ transition: transform 0.3s ease; /* Smooth transition */
 }
 .works.active
 {
-   box-shadow: offset-x offset-y blur-radius spread-radius color;
- 
-   transform: scale(1.1);
+   
+   transform: scale(1.05);
     z-index:1;/* Bring the active image to the front */
 }
 .MainNav{
