@@ -15,3 +15,18 @@ document.querySelectorAll('.works').forEach(image => {
     });
 });
 
+
+
+        let clickedImageSrc = null;
+
+        // Step 1: Select all image elements with class 'works'
+        const imageElements = document.querySelectorAll('.works');
+
+        // Step 2: Add an event listener to each image element
+        imageElements.forEach((imageElement) => {
+            imageElement.addEventListener('click', (event) => {
+                // Step 3: Update the clickedImageSrc variable with the src of the clicked image
+                clickedImageSrc = event.target.src;
+                window.location.href =clickedImageSrc;
+            });
+        });
