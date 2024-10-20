@@ -14,3 +14,14 @@ document.querySelectorAll('.works').forEach(image => {
         }
     });
 });
+
+
+// Select the link element
+const link = document.getElementById('myLink');
+
+// Add a double-click event listener
+link.addEventListener('dblclick', function(event) {
+    event.preventDefault(); // Prevent the default action of the link
+    // Perform your action here
+    alert('Link was double-clicked!');
+});
