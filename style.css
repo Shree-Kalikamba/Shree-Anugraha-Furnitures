@@ -68,13 +68,8 @@ padding:0 10px 0 10px;
 background-color:rgb(119, 181, 251);
 } 
 
-. home {
-    outline: none; /* Removes the outline */
-    background-color: transparent; /* Ensures no background color */
-}
-.home:focus ,.home: active {
-    outline: none; 
-    background-color: transparent;
+a, a:hover, a:focus, a:active {
+  background-color: transparent; /* Removes background color for all states */
 }
 
 
