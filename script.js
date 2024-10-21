@@ -16,7 +16,7 @@ document.querySelectorAll('.works').forEach(image => {
 });
 
 
-
+//works
         let clickedImageSrc = null;
 
         // Step 1: Select all image elements with class 'works'
@@ -28,5 +28,17 @@ document.querySelectorAll('.works').forEach(image => {
                 // Step 3: Update the clickedImageSrc variable with the src of the clicked image
                 clickedImageSrc = event.target.src;
                 window.location.href =clickedImageSrc;
+            });
+        });
+
+//open_works
+let clickedOImageSrc = null;
+
+      const OimageElements = document.querySelectorAll('.open_works');
+
+             OimageElements.forEach((imageElement) => {
+            imageElement.addEventListener('click', (event) => {
+                    clickedOImageSrc = event.target.src;
+                window.location.href =clickedOImageSrc;
             });
         });
