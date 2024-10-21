@@ -30,6 +30,7 @@ div.scroll {
 height:200px;
 border-radius:5px;
 border:solid white 2px;
+margin :2px;
 transition: transform 0.3s ease; /* Smooth transition */
 }
 .works.active
